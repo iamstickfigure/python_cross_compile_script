@@ -1,11 +1,83 @@
 {
 	'is_dep_inheriter' : True,
 	'depends_on' : [
-		'zlib', 'bzip2', 'xz', 'libzimg', 'libsnappy', 'libpng', 'gmp', 'libnettle', 'gnutls', 'iconv', 'frei0r', 'srt', 'lensfun', 'libsndfile', 'libbs2b', 'wavpack',
-		'libgme_game_music_emu', 'libwebp', 'tesseract', 'flite', 'libgsm', 'sdl2', 'libopus', 'opencore-amr', 'vo-amrwbenc', 'libogg', 'libspeex', 'davs2', 'openmpt',
-		'libvorbis', 'libtheora', 'freetype', 'expat', 'libxml2', 'libbluray', 'libxvid', 'xavs', 'xavs2', 'libsoxr', 'libx265_multibit', 'kvazaar', 'libaom',
-		'libdav1d', 'vamp_plugin', 'fftw3', 'libsamplerate', 'librubberband', 'liblame' ,'twolame', 'vidstab', 'libmysofa', 'libcaca', 'libmodplug',
-		'zvbi', 'libvpx', 'libilbc', 'libfribidi', 'gettext', 'libass', 'intel_quicksync_mfx', 'rtmpdump', 'libx264', 'libcdio', 'libcdio-paranoia', 'amf_headers', 'nv-codec-headers',
-		'vapoursynth_libs',
+		'sdl2', 
+		'iconv', 
+		'libass', 
+		'libbluray', 
+		'freetype', 
+		'liblame', 
+		'opencore-amr', 
+		'libopus', 
+		'libsnappy', 
+		'libsoxr', 
+		'libtheora', 
+		'libvpx',
+		'wavpack',
+		'libwebp', 
+		'libx264', 
+		'libx265_multibit', 
+		'libxml2', 
+		'zlib', 
+		'xz', 
+		'vidstab', 
+		'libvorbis', 
+		'vo-amrwbenc', 
+		'libmysofa', 
+		'libspeex', 
+		'libxvid', 
+		'libaom',  
+		'intel_quicksync_mfx', 
+		'amf_headers', 
+		'nv-codec-headers',
+
+		# TLS options
+		'gnutls', 
+		'libnettle', # Req for gnutls
+		# 'mbedtls',
+		# 'libressl',
+
+		# Won't build
+		# 'twolame', 
+
+		# Aren't needed for ffmpeg 4.1
+		# 'libdav1d', 
+		# 'openmpt', 
+
+		# Possibly extra
+		'bzip2', 
+		'libzimg', 
+		'libpng', 
+		'gmp', 
+		'frei0r', 
+		'srt', 
+		'libsndfile', 
+		'libbs2b', 
+		'libgme_game_music_emu', 
+		'flite', 
+		'libgsm', 
+		'libogg', 
+		'davs2', 
+		'expat', 
+		'xavs', 
+		'xavs2', 
+		'kvazaar',
+		'vamp_plugin', 
+		'fftw3', 
+		'libcaca', 
+		'libmodplug',
+		'zvbi', 
+		'libilbc', 
+		'libfribidi', 
+		'gettext', 
+		'libcdio', 
+		'libcdio-paranoia', 
+		'vapoursynth_libs', 
+
+		# Aren't needed
+		# 'lensfun',
+		
+		# Won't build, and aren't needed
+		# 'tesseract', 'libsamplerate', 'librubberband' 
 	],
 }

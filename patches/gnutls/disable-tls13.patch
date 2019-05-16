@@ -1,0 +1,11 @@
+--- gnutls-3.6.7/lib/state.c	2019-05-13 17:57:42.795002977 -0500
++++ gnutls-3.6.7lib/state.c	2019-05-13 17:57:31.019002977 -0500
+@@ -57,7 +57,7 @@
+ 
+ /* to be used by supplemental data support to disable TLS1.3
+  * when supplemental data have been globally registered */
+-unsigned _gnutls_disable_tls13 = 0;
++unsigned _gnutls_disable_tls13 = 1;
+ 
+ /* These should really be static, but src/tests.c calls them.  Make
+    them public functions?  */
