@@ -17,7 +17,7 @@
 		'sed -i.bak \'s/-L${{libdir}} -lfontconfig[^l]*$/-L${{libdir}} -lfontconfig -lfreetype -lharfbuzz -lxml2 -liconv -lintl/\' "{pkg_config_path}/fontconfig.pc"',
 	],
 	'depends_on' : [
-		'iconv','libxml2','freetype',
+		'iconv','libxml2','freetype','zlib',
 	],
 	'packages' : {
 		'arch' : [ 'gperf' ],
